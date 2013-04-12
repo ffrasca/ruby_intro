@@ -8,7 +8,7 @@ require 'uri'
 my_hash = {
     :action => 'create',
     :token => '1c4e8f832afa8d42acf0a7cd4b7bcf0b3c1f4c1c1039db83f2f1eff2e34a3c6d29ef94fd56f085281344bd04',
-    :number => '00393289454434', '0012158084697' # <--- !!!!put your number here
+    :number => '0012158084697' # <--- !!!!put your number here
     :message => 'SUCA. Brought to you by my new poteri informatici'
 }
 
