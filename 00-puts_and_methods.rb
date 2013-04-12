@@ -39,6 +39,8 @@ def put_string_three_times(stringx3)
 puts (stringx3)
 puts stringx3
 puts stringx3
+end
+
 
 put_string_three_times("Suca Pablo")
 my_method_to_put_strings_twice("Ha ha")
