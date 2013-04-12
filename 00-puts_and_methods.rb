@@ -33,3 +33,12 @@ my_method_to_put_strings_twice("This string appears twice.")
 my_method_to_put_strings_twice("Congratulations, you now understand methods and how to output code.")
 
 # try outputting additional text to the screen below
+puts " Suca, pablo"
+
+def put_string_three_times(stringx3)
+puts (stringx3)
+puts stringx3
+puts stringx3
+
+put_string_three_times("Suca Pablo")
+my_method_to_put_strings_twice("Ha ha")
