@@ -1,8 +1,7 @@
-
 # variables are ways to give names to values in your code
 
 my_name = "David Yang"
-your_name = "" # <-- put your name here
+your_name = "Federico Frascà" # <-- put your name here
 
 puts "#{my_name} and #{your_name} are in the same classroom!"
 
@@ -12,11 +11,13 @@ puts "#{my_name} and #{your_name} are in the same classroom!"
 # Interpolation is putting strings together, if you put a variable inside #{} tags, it will insert the value of that
 # variable into the String.
 
-puts "You can always count on #{my_name}"
+puts "You can always count on #{your_name}"
 
 # You can even put things other than just single variables
 
-puts "Will you still love me when I'm #{32 * 2}?"
+puts "Will you still love me when I'm #{32 * 3}?"
+
+puts "No Way"
 
 
 # Variables can hold more than just strings though, they can also hold things like a "Date" (in the time sense)
@@ -36,4 +37,7 @@ puts "There are only #{days_until_my_birthday} days until #{my_name}'s birthday.
 # Try doing some Date math and see how many years between now and various important dates in history.
 
 moon_landing = Date.parse("20-07-1969")
+days_moon = (moon_landing - today).to_i
+
 american_revolution = Date.parse("04-07-1776")
+days_revo = (american_revolution - today).to_i
