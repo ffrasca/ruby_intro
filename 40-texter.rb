@@ -23,7 +23,7 @@ puts "This is my final URL: #{my_final_url}"
 # Cut and paste that URL into a web browser
 
 # or you can uncomment the next line when you run this file
-# HTTParty.get(my_final_url)
+HTTParty.get(my_final_url)
 
 
 # Exercise1:
