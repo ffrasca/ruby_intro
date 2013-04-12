@@ -8,7 +8,7 @@ require 'uri'
 my_hash = {
     :action => 'create',
     :token => '1c4e8f832afa8d42acf0a7cd4b7bcf0b3c1f4c1c1039db83f2f1eff2e34a3c6d29ef94fd56f085281344bd04',
-    :number => '2158084697' # <--- !!!!put your number here
+    :number => '12158084697' # <--- !!!!put your number here
     :message => 'SUCA'
 }
 
@@ -23,7 +23,7 @@ puts "This is my final URL: #{my_final_url}"
 # Cut and paste that URL into a web browser
 
 # or you can uncomment the next line when you run this file
-HTTParty.get(my_final_url)
+# HTTParty.get(my_final_url)
 
 
 # Exercise1:
